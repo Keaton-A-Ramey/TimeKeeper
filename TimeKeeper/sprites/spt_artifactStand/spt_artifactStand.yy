@@ -7,9 +7,9 @@
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
-  "bbox_left": 0,
-  "bbox_right": 99,
-  "bbox_top": 0,
+  "bbox_left": 10,
+  "bbox_right": 89,
+  "bbox_top": 10,
   "bbox_bottom": 99,
   "HTile": false,
   "VTile": false,
@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"2f1cc3ef-0543-4e27-9b7e-98ccf75782e9","path":"sprites/spt_ShipWall/spt_ShipWall.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"2f1cc3ef-0543-4e27-9b7e-98ccf75782e9","path":"sprites/spt_ShipWall/spt_ShipWall.yy",},"LayerId":{"name":"25077d22-2d11-4ab3-b598-59605fb191e5","path":"sprites/spt_ShipWall/spt_ShipWall.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spt_ShipWall","path":"sprites/spt_ShipWall/spt_ShipWall.yy",},"resourceVersion":"1.0","name":"2f1cc3ef-0543-4e27-9b7e-98ccf75782e9","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"7d74cdbc-a1fa-4bce-922f-9e61d7b74ad5","path":"sprites/spt_artifactStand/spt_artifactStand.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"7d74cdbc-a1fa-4bce-922f-9e61d7b74ad5","path":"sprites/spt_artifactStand/spt_artifactStand.yy",},"LayerId":{"name":"343b11d5-f89d-4f57-bb15-9e0d6b3c41e1","path":"sprites/spt_artifactStand/spt_artifactStand.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spt_artifactStand","path":"sprites/spt_artifactStand/spt_artifactStand.yy",},"resourceVersion":"1.0","name":"7d74cdbc-a1fa-4bce-922f-9e61d7b74ad5","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"spt_ShipWall","path":"sprites/spt_ShipWall/spt_ShipWall.yy",},
+    "spriteId": {"name":"spt_artifactStand","path":"sprites/spt_artifactStand/spt_artifactStand.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"ae464175-0aa1-4713-a051-8c46336d7b73","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"2f1cc3ef-0543-4e27-9b7e-98ccf75782e9","path":"sprites/spt_ShipWall/spt_ShipWall.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"ab175c13-6da7-437e-b8d3-a29e44dd4ee2","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"7d74cdbc-a1fa-4bce-922f-9e61d7b74ad5","path":"sprites/spt_artifactStand/spt_artifactStand.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -58,14 +58,14 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spt_ShipWall","path":"sprites/spt_ShipWall/spt_ShipWall.yy",},
+    "parent": {"name":"spt_artifactStand","path":"sprites/spt_artifactStand/spt_artifactStand.yy",},
     "resourceVersion": "1.3",
-    "name": "spt_ShipWall",
+    "name": "spt_artifactStand",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"25077d22-2d11-4ab3-b598-59605fb191e5","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"343b11d5-f89d-4f57-bb15-9e0d6b3c41e1","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
@@ -73,7 +73,7 @@
     "path": "folders/Sprites.yy",
   },
   "resourceVersion": "1.0",
-  "name": "spt_ShipWall",
+  "name": "spt_artifactStand",
   "tags": [],
   "resourceType": "GMSprite",
 }

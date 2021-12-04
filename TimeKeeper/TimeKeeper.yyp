@@ -4,7 +4,10 @@
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"order":0,},
     {"id":{"name":"spt_ShipFloor","path":"sprites/spt_ShipFloor/spt_ShipFloor.yy",},"order":1,},
     {"id":{"name":"spt_player","path":"sprites/spt_player/spt_player.yy",},"order":0,},
+    {"id":{"name":"spt_artifactStand","path":"sprites/spt_artifactStand/spt_artifactStand.yy",},"order":4,},
+    {"id":{"name":"obj_artifactStand","path":"objects/obj_artifactStand/obj_artifactStand.yy",},"order":2,},
     {"id":{"name":"spt_ShipWall","path":"sprites/spt_ShipWall/spt_ShipWall.yy",},"order":2,},
+    {"id":{"name":"obj_controller","path":"objects/obj_controller/obj_controller.yy",},"order":1,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [

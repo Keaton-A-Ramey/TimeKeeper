@@ -1,6 +1,7 @@
 {
   "resources": [
     {"id":{"name":"obj_table","path":"objects/obj_table/obj_table.yy",},"order":5,},
+    {"id":{"name":"obj_WireT","path":"objects/obj_WireT/obj_WireT.yy",},"order":9,},
     {"id":{"name":"spt_WireToff","path":"sprites/spt_WireToff/spt_WireToff.yy",},"order":9,},
     {"id":{"name":"spt_Gun1","path":"sprites/spt_Gun1/spt_Gun1.yy",},"order":7,},
     {"id":{"name":"obj_Dew","path":"objects/obj_Dew/obj_Dew.yy",},"order":3,},
@@ -8,8 +9,11 @@
     {"id":{"name":"spt_WireBend","path":"sprites/spt_WireBend/spt_WireBend.yy",},"order":13,},
     {"id":{"name":"spt_BlankSpace","path":"sprites/spt_BlankSpace/spt_BlankSpace.yy",},"order":3,},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"order":0,},
+    {"id":{"name":"spt_pistolBullet","path":"sprites/spt_pistolBullet/spt_pistolBullet.yy",},"order":18,},
     {"id":{"name":"spt_ShipFloor","path":"sprites/spt_ShipFloor/spt_ShipFloor.yy",},"order":1,},
+    {"id":{"name":"obj_pistolBullet","path":"objects/obj_pistolBullet/obj_pistolBullet.yy",},"order":11,},
     {"id":{"name":"spt_WireStrait","path":"sprites/spt_WireStrait/spt_WireStrait.yy",},"order":12,},
+    {"id":{"name":"obj_WireTend","path":"objects/obj_WireTend/obj_WireTend.yy",},"order":10,},
     {"id":{"name":"spt_playerStop","path":"sprites/spt_playerStop/spt_playerStop.yy",},"order":8,},
     {"id":{"name":"obj_WireBend","path":"objects/obj_WireBend/obj_WireBend.yy",},"order":7,},
     {"id":{"name":"obj_Gun1","path":"objects/obj_Gun1/obj_Gun1.yy",},"order":4,},

@@ -10,3 +10,17 @@ if myHealth <= 0{
 	instance_destroy();
 }
 
+shouldIShoot++
+
+if shouldIShoot >= 90{
+	var myShot = instance_create_layer(x, y, "Instances", obj_laser);
+	myShot.direction = 0;
+	if x != obj_player.x{
+		if y != obj_player.y{
+	myShot.image_angle = point_direction(x,y,obj_player.x, obj_player.y);
+	myShot.direction = point_direction(x,y,obj_player.x, obj_player.y);
+		}
+	}
+	myShot.speed = 3;
+	shouldIShoot = 0;
+}

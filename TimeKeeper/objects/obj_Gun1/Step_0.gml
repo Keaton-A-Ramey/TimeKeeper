@@ -1,8 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-global.spawnx = x;
-global.spawny = y;
+global.spawnx = obj_player.x;
+global.spawny = obj_player.y;
 
 x = obj_player.x + 0;
 y = obj_player.y + 20;

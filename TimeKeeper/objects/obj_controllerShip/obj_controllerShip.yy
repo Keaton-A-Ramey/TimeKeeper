@@ -1,8 +1,5 @@
 {
-  "spriteId": {
-    "name": "Table",
-    "path": "sprites/Table/Table.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
@@ -31,7 +28,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_table",
+  "name": "obj_controllerShip",
   "tags": [],
   "resourceType": "GMObject",
 }

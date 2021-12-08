@@ -4,7 +4,7 @@
 
 if place_meeting(x, y, obj_pistolBullet){
 	instance_destroy(instance_nearest(x,y,obj_pistolBullet));
-	myHealth-=30
+	myHealth-=34
 	image_blend = c_red;
 	alarm_set(0,4);
 }

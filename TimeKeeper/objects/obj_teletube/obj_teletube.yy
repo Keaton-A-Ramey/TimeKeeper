@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "Table",
-    "path": "sprites/Table/Table.yy",
+    "name": "spt_teletube",
+    "path": "sprites/spt_teletube/spt_teletube.yy",
   },
   "solid": false,
   "visible": true,
@@ -31,7 +31,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_table",
+  "name": "obj_teletube",
   "tags": [],
   "resourceType": "GMObject",
 }

@@ -4,7 +4,11 @@
 
 if place_meeting(x, y, obj_pistolBullet){
 	instance_destroy(instance_nearest(x,y,obj_pistolBullet));
+	if global.currentGun = 1{
 	myHealth-=34
+	}else if global.currentGun = 2{
+	myHealth -=11;
+	}
 	image_blend = c_red;
 	alarm_set(0,4);
 }

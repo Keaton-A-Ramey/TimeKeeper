@@ -6,13 +6,16 @@ canIShoot++;
 global.spawnx = obj_player.x;
 global.spawny = obj_player.y;
 
+if place_meeting(x,y,obj_player){
+	global.gunPickedUp = true;
+}
+
+if global.gunPickedUp = true{
 x = obj_player.x + 0;
 y = obj_player.y + 20;
 
 dir = point_direction(x,y,mouse_x,mouse_y);
-
 image_angle = lerp(image_angle, dir, 1);
-
 
 if (dir > 90)
 {
@@ -28,4 +31,4 @@ if (dir < 90)
 {
 	image_yscale = 1;
 }
-
+}

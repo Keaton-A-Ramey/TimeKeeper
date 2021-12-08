@@ -2,17 +2,13 @@
 // You can write your code in this editor
 randomize();
 
+shootspeed = random_range(30,100);
+
 myHealth = 100;	
 
-whichPath=irandom_range(1,3)
-if whichPath = 1{
-	whichPath = pth_backAndForth
-}else if whichPath = 2{
-	whichPath = pth_Hourglass
-}else{
-	whichPath = pth_raindrop
-}
+whichPath = pth_backAndForth;
 
-path_start(whichPath, 3, path_action_reverse, false);
+
+path_start(whichPath, irandom_range(2,5), path_action_reverse, false);
 
 shouldIShoot = 0;

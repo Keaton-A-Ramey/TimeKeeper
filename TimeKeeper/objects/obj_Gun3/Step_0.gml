@@ -7,19 +7,19 @@ global.spawnx = obj_player.x;
 global.spawny = obj_player.y;
 
 if place_meeting(x,y,obj_player){
+	if global.gun1PickedUp = true{
+		instance_destroy(obj_Gun1);
+	}
+	global.gun1PickedUp = false;
 	if global.gun2PickedUp = true{
 		instance_destroy(obj_Gun2);
 	}
-	if global.gun3PickedUp = true{
-		instance_destroy(obj_Gun3);
-	}
-	global.gun1PickedUp = true;
-	global.currentGun = 1;
 	global.gun2PickedUp = false;
-	global.gun3PickedUp = false;
+	global.gun3PickedUp = true;
+	global.currentGun = 3;
 }
 
-if global.gun1PickedUp = true{
+if global.gun3PickedUp = true{
 x = obj_player.x + 0;
 y = obj_player.y + 20;
 

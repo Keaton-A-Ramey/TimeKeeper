@@ -12,6 +12,14 @@ if place_meeting(x, y, obj_pistolBullet){
 	alarm_set(0,4);
 }
 
+if place_meeting(x,y,obj_shotgunBullet){
+	instance_destroy(instance_nearest(x,y,obj_shotgunBullet));
+	myHealth-=12;
+	image_blend = c_red;
+	alarm_set(0,4);
+}
+
+
 if myHealth <= 0{
 	instance_create_layer(x,y,"Hitboxes", obj_enemydie);
 	instance_destroy();

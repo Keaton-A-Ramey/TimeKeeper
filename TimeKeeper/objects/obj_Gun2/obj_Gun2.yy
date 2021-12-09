@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spt_Gun1",
-    "path": "sprites/spt_Gun1/spt_Gun1.yy",
+    "name": "spt_Gun2",
+    "path": "sprites/spt_Gun2/spt_Gun2.yy",
   },
   "solid": false,
   "visible": true,
@@ -34,7 +34,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_Gun1",
+  "name": "obj_Gun2",
   "tags": [],
   "resourceType": "GMObject",
 }

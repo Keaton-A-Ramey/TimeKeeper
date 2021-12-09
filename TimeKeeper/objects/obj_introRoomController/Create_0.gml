@@ -2,7 +2,9 @@
 // You can write your code in this editor
 global.initialPlayerHealth = 200;
 global.playerHealth = global.initialPlayerHealth;
-global.gunPickedUp = false;
+global.gun1PickedUp = false;
+global.gun2PickedUp = false;
+global.gun3PickedUp = false;
 
 draw_set_font(fnt_manaspace)
 draw_set_halign(fa_center);

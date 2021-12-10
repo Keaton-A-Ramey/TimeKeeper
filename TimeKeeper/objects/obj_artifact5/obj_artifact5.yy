@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spt_artifact1",
-    "path": "sprites/spt_artifact1/spt_artifact1.yy",
+    "name": "spt_artifact5",
+    "path": "sprites/spt_artifact5/spt_artifact5.yy",
   },
   "solid": false,
   "visible": true,

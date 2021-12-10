@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_plotOfDirt",
-    "path": "sprites/spr_plotOfDirt/spr_plotOfDirt.yy",
+    "name": "spt_tower2Icon",
+    "path": "sprites/spt_tower2Icon/spt_tower2Icon.yy",
   },
   "solid": false,
   "visible": true,
@@ -21,7 +21,7 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -30,7 +30,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_plotOfDirt",
+  "name": "obj_buyTower2",
   "tags": [],
   "resourceType": "GMObject",
 }

@@ -7,3 +7,4 @@ obj_player.y = global.movey;
 global.startRound = true;
 
 spawnCounter = 0;
+global.buildMode = false;

@@ -2,7 +2,8 @@
 // You can write your code in this editor
 randomize();
 
-speed= 20;
+speed = 20 + (5*global.gunUpgrade);
+
 
 x = obj_player.x + 0;
 y = obj_player.y + 20;

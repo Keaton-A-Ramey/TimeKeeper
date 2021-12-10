@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spt_tower2",
-    "path": "sprites/spt_tower2/spt_tower2.yy",
+    "name": "spr_tower2Bullet",
+    "path": "sprites/spr_tower2Bullet/spr_tower2Bullet.yy",
   },
   "solid": false,
   "visible": true,
@@ -22,7 +22,6 @@
   "physicsShapePoints": [],
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -31,7 +30,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_tower2",
+  "name": "obj_tower2Bullet",
   "tags": [],
   "resourceType": "GMObject",
 }

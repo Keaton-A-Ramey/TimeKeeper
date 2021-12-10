@@ -3,14 +3,13 @@
 
 if place_meeting(x,y,obj_player){
 	//Make it so the player cant collide again...
-	mask_index = spt_money;
-	//Set gotBattery to true...
-	getCoin = 1;
+	mask_index = spr_noCollision;
 	//Give the coin speed...
 	speed = 15;
 	//and send it up!
 	direction = 90;
-	global.coins = global.coins + 1;
+	//add to coins
+	global.coins++;
 	
 }
 

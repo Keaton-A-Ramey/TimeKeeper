@@ -22,6 +22,7 @@ if place_meeting(x,y,obj_shotgunBullet){
 
 if myHealth <= 0{
 	instance_create_layer(x,y,"Hitboxes", obj_enemydie);
+	instance_create_layer(x,y,"Hitboxes", obj_money);
 	instance_destroy();
 }
 

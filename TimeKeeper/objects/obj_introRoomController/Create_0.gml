@@ -13,3 +13,4 @@ draw_set_alpha(1);
 draw_set_color(c_white);
 
 global.moveFrom = 0;
+global.coins = 0;

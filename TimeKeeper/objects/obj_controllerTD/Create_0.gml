@@ -3,3 +3,6 @@
 
 obj_player.x = 1850;
 obj_player.y = global.movey;
+
+
+

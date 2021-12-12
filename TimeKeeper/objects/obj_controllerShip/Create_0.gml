@@ -7,6 +7,7 @@ obj_player.x = 1850;
 obj_player.y = global.movey;
 }
 
+global.playerHealth = global.initialPlayerHealth;
 
 if global.moveFrom = 2
 {

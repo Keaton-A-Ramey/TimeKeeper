@@ -10,7 +10,7 @@ if place_meeting(x,y,obj_player){
 	direction = 90;
 	//add to coins
 	global.coins++;
-	
+	global.coinsCollected++;
 }
 
 

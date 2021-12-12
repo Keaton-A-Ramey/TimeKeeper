@@ -21,4 +21,6 @@ if x > 700
 	}
 }
 
+show_debug_message(camera_get_view_width(view_camera[0]));
+
 #endregion

@@ -1,6 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-canIShoot++;
+canIShoot+=(1 + 0.25*global.towerUpgrade);
 
 if instance_number(obj_TDenemy)>0{
 	

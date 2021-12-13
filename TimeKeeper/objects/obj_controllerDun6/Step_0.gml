@@ -7,14 +7,14 @@ if (obj_player.x < 0)
 {
 	global.movey = obj_player.y;
 	global.moveFrom = 6;
-	room_goto(dungeon2);
+	room_goto(dungeon5);
 }
 
 if (obj_player.x > 5700)
 {
 	global.movey = obj_player.y;
 	global.moveFrom = 7;
-	room_goto(dungeon);
+	room_goto(finalroom);
 }
 
 if global.artifact > 6

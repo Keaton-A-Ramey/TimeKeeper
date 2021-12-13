@@ -3,7 +3,6 @@
 if room = Room1{
 	if global.artifact-1>=1{
 		sprite_index = spt_artifact1;
-		drawTheThing = true;
 	}else{
 		sprite_index = spt_artifact1Silhouette;
 	}

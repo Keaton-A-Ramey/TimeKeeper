@@ -7,7 +7,7 @@ if (obj_player.x < 0)
 {
 	global.movey = obj_player.y;
 	global.moveFrom = 1;
-	room_goto_previous();
+	room_goto(Room1);
 }
 
 if (obj_player.x > 5700)

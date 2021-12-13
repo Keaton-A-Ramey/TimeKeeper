@@ -14,6 +14,9 @@ global.towerUpgrade = 0;
 global.dungeon1Cleared = false;
 global.dungeon2Cleared = false;
 global.dungeon3Cleared = false;
+global.dungeon4Cleared = false;
+global.dungeon5Cleared = false;
+global.dungeon6Cleared = false;
 
 global.whichPlotOfDirt = noone;
 

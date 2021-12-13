@@ -30,7 +30,7 @@ if !global.startRound{
 
 if global.startRound{
 	
-#region DEFINING NATURE OF ENEMY SPAWNING
+#region ENEMY SPAWNING
 spawnCounter++;
 	
 #region WORLD 1
@@ -92,7 +92,7 @@ spawnCounter++;
 				spawnCounter = 0;
 				global.enemyCounter++
 			}
-			if global.enemyCounter>=18{
+			if global.enemyCounter>=22{
 				if bossSpawnCounter < 1{
 					instance_create_layer(-100,-100, "Hitboxes", obj_TDboss);
 					bossSpawnCounter++;
@@ -100,6 +100,150 @@ spawnCounter++;
 			}
 		}
 	}
+#endregion
+
+#region WORLD 3
+
+	if global.artifact = 3{
+		if global.wavesComplete = 1{
+			if spawnCounter > 130{
+				instance_create_layer(-100, -100, "Hitboxes", obj_TDenemy);
+				spawnCounter = 0;
+				global.enemyCounter++
+			}
+		}
+	
+		if global.wavesComplete = 2{
+			if spawnCounter > 115{
+				instance_create_layer(-100, -100, "Hitboxes", obj_TDenemy);
+				spawnCounter = 0;
+				global.enemyCounter++
+			}
+		}
+	
+		if global.wavesComplete = 3{
+			if spawnCounter > 100{
+				instance_create_layer(-100, -100, "Hitboxes", obj_TDenemy);
+				spawnCounter = 0;
+				global.enemyCounter++
+			}
+			if global.enemyCounter>=26{
+				if bossSpawnCounter < 1{
+					instance_create_layer(-100,-100, "Hitboxes", obj_TDboss);
+					bossSpawnCounter++;
+				}
+			}
+		}
+	}
+
+#endregion
+
+#region WORLD 4
+
+	if global.artifact = 4{
+		if global.wavesComplete = 1{
+			if spawnCounter > 120{
+				instance_create_layer(-100, -100, "Hitboxes", obj_TDenemy);
+				spawnCounter = 0;
+				global.enemyCounter++
+			}
+		}
+	
+		if global.wavesComplete = 2{
+			if spawnCounter > 105{
+				instance_create_layer(-100, -100, "Hitboxes", obj_TDenemy);
+				spawnCounter = 0;
+				global.enemyCounter++
+			}
+		}
+	
+		if global.wavesComplete = 3{
+			if spawnCounter > 90{
+				instance_create_layer(-100, -100, "Hitboxes", obj_TDenemy);
+				spawnCounter = 0;
+				global.enemyCounter++
+			}
+			if global.enemyCounter>=29{
+				if bossSpawnCounter < 1{
+					instance_create_layer(-100,-100, "Hitboxes", obj_TDboss);
+					bossSpawnCounter++;
+				}
+			}
+		}
+	}
+
+#endregion
+
+#region WORLD 5
+
+if global.artifact = 5{
+		if global.wavesComplete = 1{
+			if spawnCounter > 110{
+				instance_create_layer(-100, -100, "Hitboxes", obj_TDenemy);
+				spawnCounter = 0;
+				global.enemyCounter++
+			}
+		}
+	
+		if global.wavesComplete = 2{
+			if spawnCounter > 95{
+				instance_create_layer(-100, -100, "Hitboxes", obj_TDenemy);
+				spawnCounter = 0;
+				global.enemyCounter++
+			}
+		}
+	
+		if global.wavesComplete = 3{
+			if spawnCounter > 80{
+				instance_create_layer(-100, -100, "Hitboxes", obj_TDenemy);
+				spawnCounter = 0;
+				global.enemyCounter++
+			}
+			if global.enemyCounter>=32{
+				if bossSpawnCounter < 1{
+					instance_create_layer(-100,-100, "Hitboxes", obj_TDboss);
+					bossSpawnCounter++;
+				}
+			}
+		}
+	}
+
+#endregion
+
+#region WORLD 6
+
+if global.artifact = 6{
+		if global.wavesComplete = 1{
+			if spawnCounter > 100{
+				instance_create_layer(-100, -100, "Hitboxes", obj_TDenemy);
+				spawnCounter = 0;
+				global.enemyCounter++
+			}
+		}
+	
+		if global.wavesComplete = 2{
+			if spawnCounter > 85{
+				instance_create_layer(-100, -100, "Hitboxes", obj_TDenemy);
+				spawnCounter = 0;
+				global.enemyCounter++
+			}
+		}
+	
+		if global.wavesComplete = 3{
+			if spawnCounter > 70{
+				instance_create_layer(-100, -100, "Hitboxes", obj_TDenemy);
+				spawnCounter = 0;
+				global.enemyCounter++
+			}
+			if global.enemyCounter>=35{
+				if bossSpawnCounter < 1{
+					instance_create_layer(-100,-100, "Hitboxes", obj_TDboss);
+					bossSpawnCounter++;
+				}
+			}
+		}
+	}
+
 #endregion
 
 #endregion
@@ -189,6 +333,170 @@ spawnCounter++;
 			}
 		}
 	}
+	#endregion
+	
+	#region WORLD 3
+	
+	if global.artifact=3{
+		if global.wavesComplete = 1{
+			if global.enemyCounter = 16{
+				spawnCounter = 0;
+				if instance_number(obj_TDenemy) = 0{
+					global.startRound = false;
+					global.enemyCounter = 0;
+					global.wavesComplete++;
+				}
+			}
+		}
+	
+		if global.wavesComplete = 2{
+			if global.enemyCounter = 21{
+				spawnCounter = 0;
+				if instance_number(obj_TDenemy) = 0{
+					global.startRound = false;
+					global.enemyCounter = 0;
+					global.wavesComplete++;
+				}
+			}
+		}
+	
+		if global.wavesComplete = 3{
+			if global.enemyCounter >= 26{
+				spawnCounter = 0;
+				if global.bossKilled = true{
+					if instance_number(obj_TDenemy) + instance_number(obj_artifact1) = 0{
+						global.startRound = false;
+						global.enemyCounter = 0;
+						global.wavesComplete = 1
+					}
+				}
+			}
+		}
+	}
+	
+	#endregion
+	
+	#region WORLD 4
+	
+	if global.artifact=4{
+		if global.wavesComplete = 1{
+			if global.enemyCounter = 19{
+				spawnCounter = 0;
+				if instance_number(obj_TDenemy) = 0{
+					global.startRound = false;
+					global.enemyCounter = 0;
+					global.wavesComplete++;
+				}
+			}
+		}
+	
+		if global.wavesComplete = 2{
+			if global.enemyCounter = 24{
+				spawnCounter = 0;
+				if instance_number(obj_TDenemy) = 0{
+					global.startRound = false;
+					global.enemyCounter = 0;
+					global.wavesComplete++;
+				}
+			}
+		}
+	
+		if global.wavesComplete = 3{
+			if global.enemyCounter >= 29{
+				spawnCounter = 0;
+				if global.bossKilled = true{
+					if instance_number(obj_TDenemy) + instance_number(obj_artifact1) = 0{
+						global.startRound = false;
+						global.enemyCounter = 0;
+						global.wavesComplete = 1
+					}
+				}
+			}
+		}
+	}
+	
+	#endregion
+	
+	#region WORLD 5
+	
+	if global.artifact=5{
+		if global.wavesComplete = 1{
+			if global.enemyCounter = 22{
+				spawnCounter = 0;
+				if instance_number(obj_TDenemy) = 0{
+					global.startRound = false;
+					global.enemyCounter = 0;
+					global.wavesComplete++;
+				}
+			}
+		}
+	
+		if global.wavesComplete = 2{
+			if global.enemyCounter = 27{
+				spawnCounter = 0;
+				if instance_number(obj_TDenemy) = 0{
+					global.startRound = false;
+					global.enemyCounter = 0;
+					global.wavesComplete++;
+				}
+			}
+		}
+	
+		if global.wavesComplete = 3{
+			if global.enemyCounter >= 32{
+				spawnCounter = 0;
+				if global.bossKilled = true{
+					if instance_number(obj_TDenemy) + instance_number(obj_artifact1) = 0{
+						global.startRound = false;
+						global.enemyCounter = 0;
+						global.wavesComplete = 1
+					}
+				}
+			}
+		}
+	}
+	
+	#endregion
+	
+	#region WORLD 6
+	
+	if global.artifact=6{
+		if global.wavesComplete = 1{
+			if global.enemyCounter = 25{
+				spawnCounter = 0;
+				if instance_number(obj_TDenemy) = 0{
+					global.startRound = false;
+					global.enemyCounter = 0;
+					global.wavesComplete++;
+				}
+			}
+		}
+	
+		if global.wavesComplete = 2{
+			if global.enemyCounter = 30{
+				spawnCounter = 0;
+				if instance_number(obj_TDenemy) = 0{
+					global.startRound = false;
+					global.enemyCounter = 0;
+					global.wavesComplete++;
+				}
+			}
+		}
+	
+		if global.wavesComplete = 3{
+			if global.enemyCounter >= 35{
+				spawnCounter = 0;
+				if global.bossKilled = true{
+					if instance_number(obj_TDenemy) + instance_number(obj_artifact1) = 0{
+						global.startRound = false;
+						global.enemyCounter = 0;
+						global.wavesComplete = 1
+					}
+				}
+			}
+		}
+	}
+	
 	#endregion
 	
 	#endregion

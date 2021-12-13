@@ -97,6 +97,7 @@
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_tower1Ind","path":"objects/obj_tower1Ind/obj_tower1Ind.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1600.0,"y":1200.0,"resourceVersion":"1.0","name":"inst_6A493D09","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_tower2Ind","path":"objects/obj_tower2Ind/obj_tower2Ind.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1700.0,"y":1200.0,"resourceVersion":"1.0","name":"inst_7E068F2A","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_plotOfDirt","path":"objects/obj_plotOfDirt/obj_plotOfDirt.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":630.0,"y":700.0,"resourceVersion":"1.0","name":"inst_3976BA2B","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"obj_plotOfDirt","path":"objects/obj_plotOfDirt/obj_plotOfDirt.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":-700.0,"y":-700.0,"resourceVersion":"1.0","name":"inst_6A524F17","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":200,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":100,"gridY":100,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Instances","tags":[],"resourceType":"GMRInstanceLayer",},
     {"assets":[
         {"spriteId":{"name":"spt_ShipWall","path":"sprites/spt_ShipWall/spt_ShipWall.yy",},"headPosition":0.0,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"animationSpeed":1.0,"colour":4294967295,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1800.0,"y":300.0,"resourceVersion":"1.0","name":"graphic_28320D99","tags":[],"resourceType":"GMRSpriteGraphic",},
@@ -562,6 +563,7 @@
     {"name":"inst_6A493D09","path":"rooms/TDroom/TDroom.yy",},
     {"name":"inst_7E068F2A","path":"rooms/TDroom/TDroom.yy",},
     {"name":"inst_3976BA2B","path":"rooms/TDroom/TDroom.yy",},
+    {"name":"inst_6A524F17","path":"rooms/TDroom/TDroom.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

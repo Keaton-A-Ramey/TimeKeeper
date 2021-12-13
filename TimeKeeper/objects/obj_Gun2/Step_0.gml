@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-canIShoot++;
+canIShoot+=5
 canIShoot+=(0.25*global.gunUpgrade)
 
 global.spawnx = obj_player.x;

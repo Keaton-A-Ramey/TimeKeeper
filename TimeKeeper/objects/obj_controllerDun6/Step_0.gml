@@ -33,8 +33,11 @@ if global.artifact > 6
 	
 	if instance_number(wall6)>0{
 		instance_destroy(wall6);
+	}
+	if instance_number(obj_doorBlockend)>0{
 		instance_destroy(obj_doorBlockend);
 	}
+		
 }
 
 if global.dungeon6Cleared = true{

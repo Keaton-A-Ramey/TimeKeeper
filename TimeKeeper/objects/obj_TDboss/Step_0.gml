@@ -58,6 +58,8 @@ if myHealth <= 0{
 	}
 	
 	global.bossKilled = true;
-	global.artifact++;
+	if global.artifact<7{
+		global.artifact++;
+	}
 	instance_destroy();
 }

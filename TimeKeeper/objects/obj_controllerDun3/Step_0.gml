@@ -38,7 +38,6 @@ if global.artifact > 3
 }
 
 if global.dungeon3Cleared = true{
-	
 	instance_destroy(obj_enemy1)
 	instance_destroy(obj_enemy2)
 	instance_destroy(obj_enemy3)

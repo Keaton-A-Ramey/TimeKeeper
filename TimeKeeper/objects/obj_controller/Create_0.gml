@@ -4,3 +4,5 @@
 obj_hitbox.image_alpha = 0;
 
 window_set_fullscreen(true);
+
+show_debug_message(global.artifact);

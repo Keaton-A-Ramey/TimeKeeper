@@ -24,7 +24,20 @@ if myHealth <= 0{
 	instance_create_layer(x,y,"Hitboxes", obj_enemydie);
 	instance_create_layer(x,y,"Hitboxes", obj_money);
 	if (instance_number(obj_enemy1)+instance_number(obj_enemy2)+instance_number(obj_enemy3)=1){
+		if room = dungeon{
 		global.dungeon1Cleared = true;
+		}else if room = dungeon2{
+		global.dungeon2Cleared = true;
+		}else if room = dungeon3{
+		global.dungeon3Cleared = true;
+		}else if room = dungeon4{
+		global.dungeon4Cleared = true;
+		}else if room = dungeon5{
+		global.dungeon5Cleared = true;
+		}else if room = dungeon6{
+		global.dungeon6Cleared = true;
+		}
+		
 		global.playerHealth = global.initialPlayerHealth;
 		global.gunUpRestock = true;
 		global.towerUpRestock = true;

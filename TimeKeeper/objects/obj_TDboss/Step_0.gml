@@ -40,6 +40,24 @@ if myHealth <= 0{
 	if irandom_range(1,5) = 5{
 	instance_create_layer(x,y,"Hitboxes", obj_money);
 	}
-	instance_destroy();
+	global.startRound = false;
+	global.enemyCounter = 0;
+	global.wavesComplete = 1
+	if global.artifact = 1{
+	instance_create_layer(x,y,"LayerForArtifactToNotHideBehindCoins", obj_artifact1);
+	}else if global.artifact = 2{
+	instance_create_layer(x,y,"LayerForArtifactToNotHideBehindCoins", obj_artifact2);
+	}else if global.artifact = 3{
+	instance_create_layer(x,y,"LayerForArtifactToNotHideBehindCoins", obj_artifact3);
+	}else if global.artifact = 4{
+	instance_create_layer(x,y,"LayerForArtifactToNotHideBehindCoins", obj_artifact4);
+	}else if global.artifact = 5{
+	instance_create_layer(x,y,"LayerForArtifactToNotHideBehindCoins", obj_artifact5);
+	}else if global.artifact = 6{
+	instance_create_layer(x,y,"LayerForArtifactToNotHideBehindCoins", obj_artifact6);
+	}
+	
 	global.bossKilled = true;
+	global.artifact++;
+	instance_destroy();
 }

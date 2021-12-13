@@ -27,41 +27,82 @@ if !global.startRound{
 #endregion
 
 #region WAVES (SPAWNIING BEHAVIOR, INVIS WALL, END CONDITIONS
+
 if global.startRound{
 	
-	#region DEFINING NATURE OF ENEMY SPAWNING
-	spawnCounter++;
+#region DEFINING NATURE OF ENEMY SPAWNING
+spawnCounter++;
 	
-	if global.wavesComplete = 1{
-		if spawnCounter > 150{
-			instance_create_layer(-100, -100, "Hitboxes", obj_TDenemy);
-			spawnCounter = 0;
-			global.enemyCounter++
+#region WORLD 1
+	if global.artifact = 1{
+		if global.wavesComplete = 1{
+			if spawnCounter > 150{
+				instance_create_layer(-100, -100, "Hitboxes", obj_TDenemy);
+				spawnCounter = 0;
+				global.enemyCounter++
+			}
 		}
-	}
 	
-	if global.wavesComplete = 2{
-		if spawnCounter > 140{
-			instance_create_layer(-100, -100, "Hitboxes", obj_TDenemy);
-			spawnCounter = 0;
-			global.enemyCounter++
+		if global.wavesComplete = 2{
+			if spawnCounter > 140{
+				instance_create_layer(-100, -100, "Hitboxes", obj_TDenemy);
+				spawnCounter = 0;
+				global.enemyCounter++
+			}
 		}
-	}
 	
-	if global.wavesComplete = 3{
-		if spawnCounter > 120{
-			instance_create_layer(-100, -100, "Hitboxes", obj_TDenemy);
-			spawnCounter = 0;
-			global.enemyCounter++
-		}
-		if global.enemyCounter>=18{
-			if bossSpawnCounter < 1{
-				instance_create_layer(-100,-100, "Hitboxes", obj_TDboss);
-				bossSpawnCounter++;
+		if global.wavesComplete = 3{
+			if spawnCounter > 120{
+				instance_create_layer(-100, -100, "Hitboxes", obj_TDenemy);
+				spawnCounter = 0;
+				global.enemyCounter++
+			}
+			if global.enemyCounter>=18{
+				if bossSpawnCounter < 1{
+					instance_create_layer(-100,-100, "Hitboxes", obj_TDboss);
+					bossSpawnCounter++;
+				}
 			}
 		}
 	}
-	#endregion
+#endregion
+
+#region WORLD 2
+
+	if global.artifact = 2{
+		if global.wavesComplete = 1{
+			if spawnCounter > 140{
+				instance_create_layer(-100, -100, "Hitboxes", obj_TDenemy);
+				spawnCounter = 0;
+				global.enemyCounter++
+			}
+		}
+	
+		if global.wavesComplete = 2{
+			if spawnCounter > 125{
+				instance_create_layer(-100, -100, "Hitboxes", obj_TDenemy);
+				spawnCounter = 0;
+				global.enemyCounter++
+			}
+		}
+	
+		if global.wavesComplete = 3{
+			if spawnCounter > 110{
+				instance_create_layer(-100, -100, "Hitboxes", obj_TDenemy);
+				spawnCounter = 0;
+				global.enemyCounter++
+			}
+			if global.enemyCounter>=18{
+				if bossSpawnCounter < 1{
+					instance_create_layer(-100,-100, "Hitboxes", obj_TDboss);
+					bossSpawnCounter++;
+				}
+			}
+		}
+	}
+#endregion
+
+#endregion
 	
 	#region INVIS WALL DURING WAVE
 	//this makes the player not be able to leave room when wave starts
@@ -78,35 +119,79 @@ if global.startRound{
 	
 	#region CONDITION FOR ENDING WAVE
 	
-	if global.wavesComplete = 1{
-		if global.enemyCounter = 10{
-			global.wavesComplete++;
-			global.startRound = false;
-			global.enemyCounter = 0;
+	#region WORLD 1
+	if global.artifact=1{
+		if global.wavesComplete = 1{
+			if global.enemyCounter = 10{
+				spawnCounter = 0;
+				if instance_number(obj_TDenemy) = 0{
+					global.startRound = false;
+					global.enemyCounter = 0;
+					global.wavesComplete++;
+				}
+			}
 		}
-	}
 	
-	if global.wavesComplete = 2{
-		if global.enemyCounter = 15{
-			global.wavesComplete++;
-			global.startRound = false;
-			global.enemyCounter = 0;
+		if global.wavesComplete = 2{
+			if global.enemyCounter = 13{
+				spawnCounter = 0;
+				if instance_number(obj_TDenemy) = 0{
+					global.startRound = false;
+					global.enemyCounter = 0;
+					global.wavesComplete++;
+				}
+			}
 		}
-	}
 	
-	if global.wavesComplete = 3{
-		if global.enemyCounter >= 18{
-			if global.bossKilled = true{
-			global.wavesComplete++;
-			global.startRound = false;
-			global.enemyCounter = 0;
-			global.artifact++;
+		if global.wavesComplete = 3{
+			if global.enemyCounter >= 18{
+				spawnCounter = 0;
+				}
 			}
 		}
 	}
+	#endregion
+	
+	#region WORLD 2
+	if global.artifact=2{
+		if global.wavesComplete = 1{
+			if global.enemyCounter = 14{
+				spawnCounter = 0;
+				if instance_number(obj_TDenemy) = 0{
+					global.startRound = false;
+					global.enemyCounter = 0;
+					global.wavesComplete++;
+				}
+			}
+		}
+	
+		if global.wavesComplete = 2{
+			if global.enemyCounter = 18{
+				spawnCounter = 0;
+				if instance_number(obj_TDenemy) = 0{
+					global.startRound = false;
+					global.enemyCounter = 0;
+					global.wavesComplete++;
+				}
+			}
+		}
+	
+		if global.wavesComplete = 3{
+			if global.enemyCounter >= 22{
+				spawnCounter = 0;
+				if global.bossKilled = true{
+					if instance_number(obj_TDenemy) + instance_number(obj_artifact1) = 0{
+						global.startRound = false;
+						global.enemyCounter = 0;
+						global.wavesComplete = 1
+					}
+				}
+			}
+		}
+	}
+	#endregion
 	
 	#endregion
-}
 #endregion
 
 #region USING BUILD MODE TO BUILD TOWER

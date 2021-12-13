@@ -8,6 +8,7 @@ global.startRound = false;
 global.enemyCounter = 0;
 bossSpawnCounter = 0;
 global.bossKilled = false;
+global.coinsCollected = 0;
 
 spawnCounter = 0;
 

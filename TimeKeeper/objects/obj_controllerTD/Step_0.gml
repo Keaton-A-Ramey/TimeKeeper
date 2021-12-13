@@ -589,3 +589,21 @@ if global.buildMode1 || global.buildMode2{
 	}
 }
 #endregion
+
+#region PLAYER LOSING
+
+if instance_number(obj_TDenemy) > 0{
+	if obj_TDenemy.x > 1600{
+		global.coins-=global.coinsCollected;
+		room_goto(Room1);
+	}
+}
+
+if instance_number(obj_TDboss) > 0{
+	if obj_TDboss.x > 1649{
+		global.coins-=global.coinsCollected;
+		room_goto(Room1);
+	}
+}
+
+#endregion

@@ -12,6 +12,8 @@ global.gunUpgrade = 0;
 global.towerUpgrade = 0;
 
 global.dungeon1Cleared = false;
+global.dungeon2Cleared = false;
+global.dungeon3Cleared = false;
 
 global.whichPlotOfDirt = noone;
 
@@ -22,6 +24,8 @@ global.wavesComplete = 1;
 global.startRound = false;
 
 global.artifact = 1;
+
+global.inroom = 1
 
 global.moveFrom = 0;
 

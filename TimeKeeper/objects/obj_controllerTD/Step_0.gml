@@ -19,6 +19,7 @@ if !global.startRound{
 		instance_destroy(wall2);
 	}
 	if instance_number(wall3)>0{
+		instance_destroy(obj_doorBlockend);
 		instance_destroy(wall3);
 	}
 }
@@ -68,6 +69,7 @@ if global.startRound{
 		wall1 = instance_create_layer(1900,400,"Hitboxes",obj_hitbox);
 		wall2 = instance_create_layer(1900,500,"Hitboxes",obj_hitbox);
 		wall3 = instance_create_layer(1900,600,"Hitboxes",obj_hitbox);
+		instance_create_layer(1900,300,"Hitboxes",obj_doorBlockend);
 	
 		//this is so its not making those hitboxes every frame of the wave
 		makeBorder = false;

@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spt_TDboss",
-    "path": "sprites/spt_TDboss/spt_TDboss.yy",
+    "name": "spt_TDboss1",
+    "path": "sprites/spt_TDboss1/spt_TDboss1.yy",
   },
   "solid": false,
   "visible": true,

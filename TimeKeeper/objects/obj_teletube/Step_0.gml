@@ -36,7 +36,7 @@
  {
 	 if down = 1
 	 {
-		 room_goto_previous();
+		 room_goto(Room1);
 	 }
 	 
 	 if down = 2

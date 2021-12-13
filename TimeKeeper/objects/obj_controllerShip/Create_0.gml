@@ -1,6 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+global.inroom = 1;
+
 if global.moveFrom = 1
 {
 obj_player.x = 1850;

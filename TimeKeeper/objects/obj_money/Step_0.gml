@@ -11,6 +11,7 @@ if place_meeting(x,y,obj_player){
 	//add to coins
 	global.coins++;
 	global.coinsCollected++;
+	audio_play_sound(GetCoin, 10, false);
 }
 
 

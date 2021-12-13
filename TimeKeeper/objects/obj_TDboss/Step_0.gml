@@ -39,6 +39,7 @@ if myHealth <= 0{
 	instance_create_layer(x,y,"Hitboxes", obj_enemydie);
 	if irandom_range(1,5) = 5{
 	instance_create_layer(x,y,"Hitboxes", obj_money);
+	audio_play_sound(BossDead, 10, false);
 	}
 	global.startRound = false;
 	global.enemyCounter = 0;

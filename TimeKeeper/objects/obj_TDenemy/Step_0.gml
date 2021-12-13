@@ -38,6 +38,7 @@ if place_meeting(x,y,obj_tower2Bullet){
 
 if myHealth <= 0{
 	instance_create_layer(x,y,"Hitboxes", obj_enemydie);
+	audio_play_sound(RobotDie, 10, false);
 	if irandom_range(1,5) = 5{
 	instance_create_layer(x,y,"Hitboxes", obj_money);
 	}

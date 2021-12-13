@@ -1,6 +1,11 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+if obj_player.x >1100
+{
+	room_goto(endingRoom)
+}
+
 global.inroom = 6;
 
 if (obj_player.x < 0)

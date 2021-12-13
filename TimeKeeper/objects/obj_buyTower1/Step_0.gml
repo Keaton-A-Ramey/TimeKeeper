@@ -6,6 +6,7 @@ if global.coins >=8{
 	global.tower1bought = true
 	global.towerRestock = false;
 	global.coins-=8;
+	audio_play_sound(ShopBuy, 10, false);
 	}
 }
 

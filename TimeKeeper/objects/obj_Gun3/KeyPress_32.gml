@@ -13,6 +13,7 @@ if global.currentGun = 3{
 	instance_create_layer(global.spawnx,global.spawny,"Hitboxes",obj_shotgunBullet);
 	instance_create_layer(global.spawnx,global.spawny,"Hitboxes",obj_shotgunBullet);
 	instance_create_layer(global.spawnx,global.spawny,"Hitboxes",obj_shotgunBullet);
+	audio_play_sound(ShotgunShoot, 10, false);
 	canIShoot = 0;
 	}
 }

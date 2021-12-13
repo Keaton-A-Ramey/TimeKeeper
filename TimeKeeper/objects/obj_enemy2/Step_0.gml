@@ -22,6 +22,7 @@ if place_meeting(x,y,obj_shotgunBullet){
 if myHealth <= 0{
 	instance_create_layer(x,y,"Hitboxes", obj_enemydie);
 	instance_create_layer(x,y,"Hitboxes", obj_money);
+	audio_play_sound(RobotDie, 10, false);
 	if (instance_number(obj_enemy1)+instance_number(obj_enemy2)+instance_number(obj_enemy3)=1){
 		if room = dungeon{
 		global.dungeon1Cleared = true;

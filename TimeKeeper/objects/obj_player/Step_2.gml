@@ -1,15 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-if artifact = 0
-	{
 	roomgoto = 5700 - 1200;
-	}
-
-if artifact = 1
-	{
-	roomgoto = 11400 - 1200;
-	}
 
 #region MOVE THE VIEW 
 
@@ -21,4 +13,4 @@ if x > 700
 	}
 }
 
-#endregion
+#endregion 

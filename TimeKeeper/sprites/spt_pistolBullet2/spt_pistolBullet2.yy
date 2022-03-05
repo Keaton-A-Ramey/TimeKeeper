@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spt_pistolBullet2","path":"sprites/spt_pistolBullet2/spt_pistolBullet2.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spt_pistolBullet2",
     "tags": [],
     "resourceType": "GMSequence",

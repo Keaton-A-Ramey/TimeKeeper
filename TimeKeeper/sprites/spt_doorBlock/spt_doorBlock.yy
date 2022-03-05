@@ -71,7 +71,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spt_doorBlock","path":"sprites/spt_doorBlock/spt_doorBlock.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spt_doorBlock",
     "tags": [],
     "resourceType": "GMSequence",

@@ -71,7 +71,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spt_Stew","path":"sprites/spt_Stew/spt_Stew.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spt_Stew",
     "tags": [],
     "resourceType": "GMSequence",

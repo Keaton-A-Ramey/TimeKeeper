@@ -63,7 +63,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_tower1Bullet","path":"sprites/spr_tower1Bullet/spr_tower1Bullet.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_tower1Bullet",
     "tags": [],
     "resourceType": "GMSequence",

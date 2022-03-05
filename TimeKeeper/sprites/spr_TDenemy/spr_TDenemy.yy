@@ -67,7 +67,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_TDenemy","path":"sprites/spr_TDenemy/spr_TDenemy.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_TDenemy",
     "tags": [],
     "resourceType": "GMSequence",

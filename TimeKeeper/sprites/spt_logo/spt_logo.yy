@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spt_logo","path":"sprites/spt_logo/spt_logo.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spt_logo",
     "tags": [],
     "resourceType": "GMSequence",

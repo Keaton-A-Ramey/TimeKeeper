@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_gunUpgradeToken","path":"sprites/spr_gunUpgradeToken/spr_gunUpgradeToken.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_gunUpgradeToken",
     "tags": [],
     "resourceType": "GMSequence",

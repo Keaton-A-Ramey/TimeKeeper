@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spt_tower2IconHighlight","path":"sprites/spt_tower2IconHighlight/spt_tower2IconHighlight.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spt_tower2IconHighlight",
     "tags": [],
     "resourceType": "GMSequence",

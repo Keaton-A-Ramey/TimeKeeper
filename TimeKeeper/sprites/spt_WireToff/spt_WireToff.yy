@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spt_WireToff","path":"sprites/spt_WireToff/spt_WireToff.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spt_WireToff",
     "tags": [],
     "resourceType": "GMSequence",

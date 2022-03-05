@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_plotOfDirtHighlight","path":"sprites/spr_plotOfDirtHighlight/spr_plotOfDirtHighlight.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_plotOfDirtHighlight",
     "tags": [],
     "resourceType": "GMSequence",

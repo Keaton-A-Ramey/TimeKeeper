@@ -63,7 +63,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spt_WireTon","path":"sprites/spt_WireTon/spt_WireTon.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spt_WireTon",
     "tags": [],
     "resourceType": "GMSequence",

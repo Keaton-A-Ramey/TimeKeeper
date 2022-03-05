@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spt_tower1","path":"sprites/spt_tower1/spt_tower1.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spt_tower1",
     "tags": [],
     "resourceType": "GMSequence",

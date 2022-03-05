@@ -203,7 +203,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"Sprite16","path":"sprites/Sprite16/Sprite16.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "Sprite16",
     "tags": [],
     "resourceType": "GMSequence",

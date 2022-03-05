@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_buyTower","path":"sprites/spr_buyTower/spr_buyTower.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_buyTower",
     "tags": [],
     "resourceType": "GMSequence",

@@ -63,7 +63,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spt_finalButton","path":"sprites/spt_finalButton/spt_finalButton.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spt_finalButton",
     "tags": [],
     "resourceType": "GMSequence",

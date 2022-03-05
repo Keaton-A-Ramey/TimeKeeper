@@ -75,7 +75,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_enemydie","path":"sprites/spr_enemydie/spr_enemydie.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_enemydie",
     "tags": [],
     "resourceType": "GMSequence",

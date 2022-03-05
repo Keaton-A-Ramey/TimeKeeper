@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spt_teletube","path":"sprites/spt_teletube/spt_teletube.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spt_teletube",
     "tags": [],
     "resourceType": "GMSequence",

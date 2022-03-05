@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spt_BlankSpace","path":"sprites/spt_BlankSpace/spt_BlankSpace.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spt_BlankSpace",
     "tags": [],
     "resourceType": "GMSequence",

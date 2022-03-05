@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spt_ShipFloor","path":"sprites/spt_ShipFloor/spt_ShipFloor.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spt_ShipFloor",
     "tags": [],
     "resourceType": "GMSequence",

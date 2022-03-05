@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spt_artifactStand","path":"sprites/spt_artifactStand/spt_artifactStand.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spt_artifactStand",
     "tags": [],
     "resourceType": "GMSequence",

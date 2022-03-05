@@ -71,7 +71,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spt_Dew","path":"sprites/spt_Dew/spt_Dew.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spt_Dew",
     "tags": [],
     "resourceType": "GMSequence",

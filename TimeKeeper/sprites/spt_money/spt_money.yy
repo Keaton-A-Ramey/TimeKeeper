@@ -71,7 +71,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spt_money","path":"sprites/spt_money/spt_money.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spt_money",
     "tags": [],
     "resourceType": "GMSequence",

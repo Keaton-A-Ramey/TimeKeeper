@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spt_depth2","path":"sprites/spt_depth2/spt_depth2.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spt_depth2",
     "tags": [],
     "resourceType": "GMSequence",

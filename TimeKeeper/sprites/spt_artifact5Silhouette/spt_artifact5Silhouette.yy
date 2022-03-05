@@ -71,7 +71,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spt_artifact5Silhouette","path":"sprites/spt_artifact5Silhouette/spt_artifact5Silhouette.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spt_artifact5Silhouette",
     "tags": [],
     "resourceType": "GMSequence",

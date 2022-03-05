@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spt_ground2","path":"sprites/spt_ground2/spt_ground2.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spt_ground2",
     "tags": [],
     "resourceType": "GMSequence",

@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spt_Gun3","path":"sprites/spt_Gun3/spt_Gun3.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spt_Gun3",
     "tags": [],
     "resourceType": "GMSequence",

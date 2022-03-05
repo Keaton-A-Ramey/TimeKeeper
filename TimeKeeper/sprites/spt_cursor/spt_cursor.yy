@@ -138,7 +138,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spt_cursor","path":"sprites/spt_cursor/spt_cursor.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spt_cursor",
     "tags": [],
     "resourceType": "GMSequence",

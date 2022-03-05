@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spt_WireBend","path":"sprites/spt_WireBend/spt_WireBend.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spt_WireBend",
     "tags": [],
     "resourceType": "GMSequence",

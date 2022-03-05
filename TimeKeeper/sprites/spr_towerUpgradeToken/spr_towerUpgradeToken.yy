@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_towerUpgradeToken","path":"sprites/spr_towerUpgradeToken/spr_towerUpgradeToken.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_towerUpgradeToken",
     "tags": [],
     "resourceType": "GMSequence",

@@ -63,7 +63,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spt_WireBendon","path":"sprites/spt_WireBendon/spt_WireBendon.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spt_WireBendon",
     "tags": [],
     "resourceType": "GMSequence",

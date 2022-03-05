@@ -71,7 +71,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spt_artifact4","path":"sprites/spt_artifact4/spt_artifact4.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spt_artifact4",
     "tags": [],
     "resourceType": "GMSequence",

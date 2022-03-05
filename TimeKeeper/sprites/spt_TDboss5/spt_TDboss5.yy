@@ -71,7 +71,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spt_TDboss5","path":"sprites/spt_TDboss5/spt_TDboss5.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spt_TDboss5",
     "tags": [],
     "resourceType": "GMSequence",

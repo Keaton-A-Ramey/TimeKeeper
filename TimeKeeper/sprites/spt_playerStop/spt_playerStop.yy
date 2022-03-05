@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spt_playerStop","path":"sprites/spt_playerStop/spt_playerStop.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spt_playerStop",
     "tags": [],
     "resourceType": "GMSequence",
